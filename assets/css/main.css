@@ -6246,7 +6246,7 @@ Location:
 
 .slick3-button-area {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   right: inherit;
   align-items: center;
   width: 970px;
