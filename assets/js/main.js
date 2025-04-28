@@ -6,11 +6,11 @@ $(document).ready(function(){
 if ($("#header").length > 0) {
 $(window).on("scroll", function (event) {
   var scroll = $(window).scrollTop();
-  if (scroll < 1) {
-  $(".header-area").removeClass("sticky");
-  } else {
-  $(".header-area").addClass("sticky");
-  }
+  // if (scroll < 1) {
+  // $(".header-area").removeClass("sticky");
+  // } else {
+  // $(".header-area").addClass("sticky");
+  // }
   });
 }
 //========== HEADER ACTIVE ENDS ============= //
