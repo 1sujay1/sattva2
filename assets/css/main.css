@@ -24204,3 +24204,12 @@ Location:
   border-radius: 8px;
 }
 
+.location-container{
+  padding: 16px; /* padding inside the card */
+  background-color: #ffffff; /* white background */
+  border: 1px solid #e0e0e0; /* light gray border */
+  border-radius: 8px; /* rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  max-width: 400px; /* optional: limit width */
+  margin: 16px auto;
+}
