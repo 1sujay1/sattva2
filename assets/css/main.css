@@ -24370,3 +24370,91 @@ Location:
     max-width: 100%;
   }
 }
+
+/*project*/
+.sattva-section {
+  width: 100%;
+  background-color: #fff;
+  padding: 40px 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.text-content h1 {
+  font-size: 2rem;
+  color: #1e2b5c;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.content-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.project-image {
+  max-width: 100%;
+  width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-highlights {
+  flex: 1;
+  min-width: 300px;
+}
+
+.project-highlights h2 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+  color: #2c2c2c;
+}
+
+.project-highlights ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.project-highlights li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.btn-enquire {
+  display: inline-block;
+  background-color: #1e2b5c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-enquire:hover {
+  background-color: #142044;
+}
+
+@media (max-width: 768px) {
+  .content-flex {
+    flex-direction: column;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+}
