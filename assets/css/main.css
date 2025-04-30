@@ -22,6 +22,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 0;
+  
 }
 
 input, textarea {
@@ -2779,7 +2780,7 @@ Location:
   border-radius: 16px;
 }
 .about8-author-section-area .experience-box {
-  background: var(--ztc-bg-bg-9);
+  background:#14453D;
   border-radius: 16px;
   padding: 32px 47px 65px 32px;
 }
@@ -6318,6 +6319,7 @@ Location:
   font-weight: var(--ztc-weight-semibold);
   line-height: 72px;
   display: inline-block;
+  
 }
 @media (max-width: 767px) {
   .hero9-section-area .hero-header h1 {
@@ -24318,5 +24320,53 @@ Location:
   .register-button button, .unlock-button {
     font-size: 14px;
     padding: 8px 15px;
+  }
+}
+
+
+/*video*/
+.section-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #26268b;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.video-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video {
+  flex: 1 1 480px;
+  max-width: 48%;
+  aspect-ratio: 16 / 9;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .video {
+    max-width: 100%;
   }
 }
