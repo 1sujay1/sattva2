@@ -24215,8 +24215,9 @@ Location:
   border: 1px solid #e0e0e0; /* light gray border */
   border-radius: 8px; /* rounded corners */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
-  max-width: 400px; /* optional: limit width */
+  /* min-width: 400px;  */
   margin: 16px auto;
+  width: 100%;
 }
 
 /* Price */
@@ -24621,5 +24622,9 @@ Location:
     padding: 15px;
   }
 }
-
-
+.floorDiv{
+  height: 366px;
+}
+.floorDiv img{
+  filter:blur(5px)
+}
