@@ -6198,12 +6198,14 @@ Location:
   margin-left: -36px;
   left: 50%;
   margin-top: -36px;
+  z-index: 11;
 }
 @media (max-width: 767px) {
   .header3-slick-slider .hero8-main-area .play-btn-area {
     top: 20%;
     left: 50%;
     margin-left: -60px;
+    z-index: 11;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
