@@ -24499,13 +24499,13 @@ Location:
 
 /* Keyframes for fade up */
 @keyframes fadeInUp {
-  0% {
+  from {
+    transform: translateY(20px);
     opacity: 0;
-    transform: translate(-50%, 30%);
   }
-  100% {
+  to {
+    transform: translateY(0);
     opacity: 1;
-    transform: translate(-50%, -50%);
   }
 }
 
@@ -24517,12 +24517,11 @@ Location:
   }
 
   .hero-text-banner {
-    top: 45%; /* adjust as needed */
+    top: 38%; /* adjust as needed */
   }
 
   .hero-text-banner h2 {
     font-size: 48px;
-    margin-left: 750px;
     margin-bottom: 370px;
     
   }
@@ -24531,13 +24530,12 @@ Location:
 /* Mobile styles */
 @media (max-width: 767px) {
   .hero-text-banner {
-    top: 15%; /* show above play icon */
+    top: 10%; /* show above play icon */
    
   }
 
   .hero-text-banner h2 {
     font-size: 22px;
-    margin-left: 200px;
     margin-bottom: 30px;
     width: 100%;
   }
