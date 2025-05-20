@@ -756,6 +756,7 @@ Location:
   padding: 17px 24px;
   position: relative;
   z-index: 1;
+  
 }
 .header-btn4:hover {
   transition: all 0.4s;
@@ -24294,7 +24295,7 @@ Location:
 }
 
 .unlock-button {
-  background-color: #000000;
+  background-color: #14453D;
   color: #ffffff;
   padding: 8px 15px;
   border: none;
@@ -24441,7 +24442,7 @@ Location:
 
 .btn-enquire {
   display: inline-block;
-  background-color: #1e2b5c;
+  background-color: #14453D;
   color: #fff;
   padding: 10px 20px;
   border-radius: 4px;
@@ -24450,7 +24451,7 @@ Location:
 }
 
 .btn-enquire:hover {
-  background-color: #142044;
+  background-color: #1b302d;
 }
 
 @media (max-width: 768px) {
