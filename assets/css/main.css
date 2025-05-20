@@ -24643,3 +24643,8 @@ Location:
   cursor: pointer;
   border-radius: 5px;
 }
+.floor-plan-div{
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
