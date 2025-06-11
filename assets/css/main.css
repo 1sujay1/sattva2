@@ -1769,6 +1769,7 @@ Location:
 .about2-section-area {
   position: relative;
   z-index: 1;
+  width:100%
 }
 .about2-section-area .about-slider-area {
   position: relative;
