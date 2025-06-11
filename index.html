@@ -913,8 +913,11 @@ background-color: #E1E3E6 !important
             <div class="space20"></div>
             <h2 style="color:#14453D; font-size: 25px; font-weight: bold;" class="text-anime-style-3" class="text-anime-style-3" >Sneak Peek of the Property Floor Plan</h2>
           </div>
-          <div class="row">
-            <div class="col-lg-6 ">
+          <!-- <div class="row">
+            <div class="col-lg-6 "> -->
+              <div class="row d-flex flex-wrap">
+  <div class="col-lg-6 col-12 mb-4">
+
               <div class="about-slider-area owl-carousel">
                   <div class="img1 reveal image-anime floorDiv">
                       <img src="assets/img/all-images/floor/floor1.jpg" alt="">
@@ -935,7 +938,9 @@ background-color: #E1E3E6 !important
               </div>
               <div class="space30"></div>
           </div>
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6"> -->
+            <div class="col-lg-6 col-12">
+
             <div class="project-highlights floorDiv">
               <h2 class="text-anime-style-3" style="text-decoration:overline;">Project Highlights</h2>
               <ul>
@@ -2065,6 +2070,27 @@ background-color: #E1E3E6 !important
       item.classList.toggle('active');
     });
   });
+
+
+
+  $('.about-slider-area').owlCarousel({
+  items: 1,
+  loop: true,
+  nav: true,
+  dots: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    768: {
+      items: 1
+    },
+    992: {
+      items: 1
+    }
+  }
+});
+
 </script>
 
 </body>

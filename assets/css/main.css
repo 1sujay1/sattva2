@@ -24464,6 +24464,43 @@ Location:
   }
 }
 
+@media (max-width: 768px) {
+  .content-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .floor-plan-div .row {
+    flex-direction: column;
+  }
+
+  .floorDiv {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .about-slider-area img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .project-highlights {
+    padding: 10px;
+  }
+
+  .btn-enquire {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .galler-header h2 {
+    font-size: 20px;
+  }
+}
+
 /*hero text*/
 .hero8-main-area {
   position: relative;
