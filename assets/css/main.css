@@ -24386,7 +24386,7 @@ Location:
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -24412,7 +24412,7 @@ Location:
 }
 
 .project-image {
-  max-width: 100%;
+  max-width: 90%;
   width: 600px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -24464,6 +24464,7 @@ Location:
     width: 100%;
   }
 }
+
 
 /*hero text*/
 .hero8-main-area {
