@@ -420,7 +420,7 @@ background-color: #E1E3E6 !important
         />
         <input type="hidden" name="_cc" value="visupriya.udt@gmail.com,sujaymaster111@gmail.com,sudershancharles30@gmail.com">
         <input type="hidden" name="_captcha" value="false">
-        <button type="submit" name="mobile" class="btn btn-warning w-100 fw-bold mb-2">
+        <button id="contact_form_btn1" type="submit" name="mobile" class="btn btn-warning w-100 fw-bold mb-2">
           GET CALL BACK
         </button>
       </form>
@@ -1906,7 +1906,7 @@ background-color: #E1E3E6 !important
                         <div class="col-lg-12">
                             <div class="space32"></div>
                             <div class="input-area text-end">
-                                <button type="submit" class="header-btn4">Send Message <i class="fa-solid fa-arrow-right"></i></button>
+                                <button type="submit" id="contact_form_btn2" class="header-btn4">Send Message <i class="fa-solid fa-arrow-right"></i></button>
                             </div>
                             <div id="status2" style="color: green;margin-top: 1rem;"></div>
                         </div>
@@ -2080,16 +2080,22 @@ background-color: #E1E3E6 !important
 
         const form = e.target;
         const data = new FormData(form);
-
+const submitBtn1 = document.getElementById('contact_form_btn1');
+  submitBtn1.disabled = true;
+    submitBtn1.textContent = 'Loading...';
         fetch("https://formsubmit.co/charles@teamvintagerealty.com", {
           method: "POST",
           body: data
         })
         .then(response => {
+             submitBtn1.disabled = false;
+      submitBtn1.textContent = 'GET CALL BACK';
           document.getElementById("status").innerText = "Thank you! Your message has been sent.";
           form.reset();
         })
         .catch(error => {
+             submitBtn1.disabled = false;
+      submitBtn1.textContent = 'GET CALL BACK';
           document.getElementById("status").innerText = "Oops! Something went wrong.";
         });
 
@@ -2099,16 +2105,22 @@ background-color: #E1E3E6 !important
 
         const form = e.target;
         const data = new FormData(form);
-
+const submitBtn2 = document.getElementById('contact_form_btn2');
+  submitBtn2.disabled = true;
+    submitBtn2.textContent = 'Loading...';
         fetch("https://formsubmit.co/charles@teamvintagerealty.com", {
           method: "POST",
           body: data
         })
         .then(response => {
+           submitBtn2.disabled = false;
+      submitBtn2.textContent = 'Send Message';
           document.getElementById("status2").innerText = "Thank you! Your message has been sent.";
           form.reset();
         })
         .catch(error => {
+           submitBtn2.disabled = false;
+      submitBtn2.textContent = 'Send Message';
           document.getElementById("status2").innerText = "Oops! Something went wrong.";
         });
 
